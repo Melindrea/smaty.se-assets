@@ -25,18 +25,23 @@ img {
 
 .gallery {
     list-style-type: none;
-    padding-left: 0;
-}
+    padding: 0;
+    margin: 0;
 
-.gallery li {
-    float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    width: 300px;
-}
+    li {
+        display: inline-block;
+        max-width: 49%;
+        padding-right: 0.5rem;
+        padding-bottom: 1rem;
+    }
 
-.gallery img {
-    @extend %polaroid;
+    img {
+        @extend %polaroid;
+    }
+
+    figure {
+        margin: 0;
+    }
 }
 
 @media only screen
