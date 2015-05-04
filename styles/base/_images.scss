@@ -20,7 +20,7 @@ img {
 
 .inline-image {
     @extend %polaroid;
-    display: inline;
+    display: inline-block;
 }
 
 .gallery {
@@ -46,7 +46,7 @@ img {
 
 @media only screen
 and (min-width : 500px) {
-    .gallery figcaption {
+    [data-rel=thumbnail] + figcaption {
         position: absolute;
         clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
         clip: rect(1px, 1px, 1px, 1px);

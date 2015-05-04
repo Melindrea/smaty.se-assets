@@ -31,5 +31,11 @@ main h1 {
 // Quotes
 blockquote {
     font-style: italic;
-    margin: 0;
+    margin: 1rem 0;
+}
+
+.tagline {
+    font-style: italic;
+    font-weight: bold;
+    padding: 0;
 }

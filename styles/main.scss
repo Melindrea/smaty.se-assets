@@ -26,6 +26,28 @@ html * {
     @extend %clearfix;
 }
 
+.story-box {
+    border: 4px double $white;
+    padding: 1rem;
+    @extend %clearfix;
+    margin-bottom: 2rem;
+
+    figure {
+        max-width: 50%;
+        float: left;
+        margin: 0;
+        margin-right: 2rem;
+    }
+
+    img {
+        @extend %polaroid;
+    }
+
+    p {
+        padding: 0;
+        text-indent: 0;
+    }
+}
 
 body {
     background-image: url('/assets/images/linen.jpg');
