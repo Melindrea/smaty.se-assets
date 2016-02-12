@@ -126,11 +126,11 @@ main header {
     }
 }
 
-[role=banner] {
+.site-header {
     padding-left: 2rem;
 }
 
-[role=contentinfo] {
+.site-footer {
     font-size: 0.7rem;
     text-align: center;
     text-shadow: 0 0 2px $sepia-medium-light;

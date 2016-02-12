@@ -3,11 +3,11 @@
         border: 0 none;
     }
     nav,
-    [role=complementary],
+    .site-sidebar,
     .twitter-timeline,
     #mc_embed_signup,
     .twitter-tweet,
-    [role=contentinfo] {
+    .site-footer {
         display: none;
     }
 
@@ -25,8 +25,8 @@
     }
 
     main,
-    [role=banner],
-    [role=contentinfo] {
+    .site-header,
+    .site-footer {
         background: #fff;
         border: 0 none;
         box-shadow: none;
@@ -38,7 +38,7 @@
         text-decoration: none;
     }
 
-    [role=banner]:before {
+    .site-header:before {
         display: block;
         content: "Thank you for printing my content at smaty.se. Please check back soon for new information.";
         margin-bottom: 10px;
