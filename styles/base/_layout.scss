@@ -109,21 +109,21 @@
     @extend %clearfix;
 }
 
-[role=banner],
+.site-header,
 main,
-[role=contentinfo],
-[role=complementary] nav,
+.site-footer,
+.site-sidebar nav,
 #author-box {
     @extend %design-box;
 }
 
 @media screen and (min-width: 40em) {
-    [role=complementary],
+    .site-sidebar,
     main {
         float: left;
     }
 
-    [role=complementary] {
+    .site-sidebar {
          width: calc-span(3, 8);
          padding-right: $base-margin;
     }
